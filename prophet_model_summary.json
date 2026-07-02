@@ -1,0 +1,23 @@
+{
+  "model_type": "Prophet",
+  "hyperparameters": {
+    "changepoint_prior_scale": 0.4990233169540592,
+    "seasonality_prior_scale": 0.02915042779679471,
+    "holidays_prior_scale": 0.014289680744182189,
+    "seasonality_mode": "multiplicative",
+    "changepoint_range": 0.9072070814481745
+  },
+  "metrics": {
+    "rmse": 1586.6781245256745,
+    "mae": 1408.8729105708355
+  },
+  "training_period": "1960-1966",
+  "test_period": "1967",
+  "n_train": 84,
+  "n_test": 12,
+  "optimization": {
+    "method": "Optuna",
+    "n_trials": 50,
+    "best_trial_rmse": 1586.6781245256745
+  }
+}

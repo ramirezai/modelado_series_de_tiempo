@@ -1,0 +1,24 @@
+{
+  "model_type": "SARIMA",
+  "order": [
+    1,
+    2,
+    1
+  ],
+  "seasonal_order": [
+    1,
+    1,
+    0,
+    12
+  ],
+  "metrics": {
+    "rmse": 1519.8694755728782,
+    "mae": 1369.73449629004,
+    "aic": 1023.4963544372956,
+    "bic": 1031.6685595086337
+  },
+  "training_period": "1960-1966",
+  "test_period": "1967",
+  "n_train": 84,
+  "n_test": 12
+}

@@ -1,0 +1,28 @@
+{
+  "comparison_date": "2026-07-02T04:46:54.956858",
+  "models_compared": [
+    "SARIMA(0,2,2)(0,1,1,12)",
+    "Prophet Optimizado"
+  ],
+  "metrics": {
+    "SARIMA": {
+      "rmse": 1519.8694755728782,
+      "mae": 1369.73449629004
+    },
+    "Prophet": {
+      "rmse": 1586.6781245256745,
+      "mae": 1408.8729105708355
+    }
+  },
+  "winner": {
+    "by_rmse": "SARIMA",
+    "by_mae": "SARIMA"
+  },
+  "improvement": {
+    "prophet_vs_baseline": {
+      "baseline_rmse": 2793.27,
+      "optimized_rmse": 1586.6781245256745,
+      "improvement_percent": 43.1963925962877
+    }
+  }
+}
